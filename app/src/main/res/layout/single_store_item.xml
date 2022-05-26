@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/storeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Bratscher custom shoes"
+        android:textColor="#4461CA"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/storeImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/noimageicon" />
+
+    <TextView
+        android:id="@+id/storeDescription"
+        android:layout_width="238dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Neki random generisani tekst kako bi izgledalo bolgfdgdf"
+        android:textColor="#5E5E5E"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeName" />
+
+    <ImageView
+        android:id="@+id/iconCountry"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeImage"
+        tools:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+    <ImageView
+        android:id="@+id/iconCity"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/countryLocation"
+        app:layout_constraintTop_toBottomOf="@+id/storeImage"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@drawable/ic_baseline_location_city_24" />
+
+    <ImageView
+        android:id="@+id/iconAddress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cityLocation"
+        app:layout_constraintTop_toBottomOf="@+id/storeImage"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@drawable/ic_baseline_my_location_24" />
+
+    <TextView
+        android:id="@+id/countryLocation"
+        android:layout_width="58dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Serbia"
+        android:textColor="#8c2020"
+        app:layout_constraintStart_toEndOf="@+id/iconCountry"
+        app:layout_constraintTop_toBottomOf="@+id/storeImage" />
+
+    <TextView
+        android:id="@+id/cityLocation"
+        android:layout_width="68dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Novi Sad"
+        android:textColor="#8c2020"
+        app:layout_constraintStart_toEndOf="@+id/iconCity"
+        app:layout_constraintTop_toBottomOf="@+id/storeImage" />
+
+    <TextView
+        android:id="@+id/addressLocation"
+        android:layout_width="114dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Brace ribnikar 23"
+        android:textColor="#8c2020"
+        app:layout_constraintStart_toEndOf="@+id/iconAddress"
+        app:layout_constraintTop_toBottomOf="@+id/storeImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

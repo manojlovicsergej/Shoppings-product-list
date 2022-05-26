@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoryItems">
+        <item>Electronics</item>
+        <item>Women\'s Wardrobe</item>
+        <item>Home</item>
+        <item>Beauty</item>
+        <item>Health</item>
+        <item>Automobiles</item>
+        <item>Watches</item>
+        <item>Sport</item>
+        <item>Men\'s Wardrobe</item>
+        <item>Jewelry</item>
+        <item>Baby Stuff</item>
+        <item>Foot wear</item>
+        <item>Bags &amp; Luggage</item>
+        <item>Construction and repair</item>
+        <item>Pet products</item>
+        <item>Hobbies</item>
+        <item>Garden Supplies</item>
+        <item>Office Supplies</item>
+        <item>School Supplies</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="Favorites"
+
+        />
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        />
+
+    <item
+        android:id="@+id/nav_addproduct"
+        android:title="Add product"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+
+        />
+    <item
+        android:id="@+id/nav_stores"
+        android:title="Stores"
+        android:icon="@drawable/ic_baseline_store_24"
+
+        />
+    <item
+        android:id="@+id/nav_location"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Location"
+        />
+
+
+
+</menu>
