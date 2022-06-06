@@ -149,6 +149,10 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
             viewHolder.imageView.setImageResource(R.drawable.sports);
         }
 
+        if(type.equals("Bank")){
+            viewHolder.imageView.setImageResource(R.drawable.creditcard);
+        }
+
     }
 
 }

@@ -313,6 +313,10 @@ public class LocationFragment extends Fragment implements OnMapReadyCallback {
             mo.draggable(true).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
         }
 
+        if(category.equals("Bank")){
+            mo.draggable(true).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+        }
+
         return mo;
     }
 

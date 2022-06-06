@@ -162,6 +162,9 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.ViewHo
         if(type.equals("Sport")){
             viewHolder.imageViewFavorite.setImageResource(R.drawable.sports);
         }
+        if(type.equals("Bank")){
+            viewHolder.imageViewFavorite.setImageResource(R.drawable.creditcard);
+        }
 
     }
 

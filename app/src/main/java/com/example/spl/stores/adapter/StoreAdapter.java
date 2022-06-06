@@ -217,5 +217,9 @@ public class StoreAdapter extends RecyclerView.Adapter<StoreAdapter.ViewHolder> 
             viewHolder.storeImage.setImageResource(R.drawable.sports);
         }
 
+        if(type.equals("Bank")){
+            viewHolder.storeImage.setImageResource(R.drawable.creditcard);
+        }
+
     }
 }
