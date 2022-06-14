@@ -133,6 +133,9 @@ public class FavoriteDetails extends AppCompatActivity {
         if(type.equals("Beauty")){
             image.setImageResource(R.drawable.beauty);
         }
+        if(type.equals("Bank")){
+            image.setImageResource(R.drawable.creditcard);
+        }
         if(type.equals("Health")){
             image.setImageResource(R.drawable.health);
         }

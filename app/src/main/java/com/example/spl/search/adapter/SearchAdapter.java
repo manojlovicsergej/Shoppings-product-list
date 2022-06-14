@@ -203,6 +203,9 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ViewHolder
         if(type.equals("Home")){
             viewHolder.searchProductImageView.setImageResource(R.drawable.home);
         }
+        if(type.equals("Bank")){
+            viewHolder.searchProductImageView.setImageResource(R.drawable.creditcard);
+        }
         if(type.equals("Beauty")){
             viewHolder.searchProductImageView.setImageResource(R.drawable.beauty);
         }

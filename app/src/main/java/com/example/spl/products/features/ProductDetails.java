@@ -180,6 +180,9 @@ public class ProductDetails extends AppCompatActivity implements Serializable {
         if(type.equals("Beauty")){
             imageProductView.setImageResource(R.drawable.beauty);
         }
+        if(type.equals("Bank")){
+            imageProductView.setImageResource(R.drawable.creditcard);
+        }
         if(type.equals("Health")){
             imageProductView.setImageResource(R.drawable.health);
         }
